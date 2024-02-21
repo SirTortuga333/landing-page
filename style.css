@@ -21,7 +21,6 @@ body{
 }
 
 .header{
-    /* padding: 16px 254px; */
     padding: 16px 460px;
     display: flex;
     justify-content: space-between;
@@ -51,7 +50,6 @@ a{
 
 .hero-container{
     display: flex;
-    /* padding: 96px 254px; */
     padding: 96px 460px;
     justify-content: space-between;
     align-items: center;
@@ -189,4 +187,13 @@ a{
     font-weight: bold;
     border-radius: 8px;
     padding: 8px 24px;
+}
+
+.footer{
+    padding: 48px 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 18px;
 }
