@@ -17,7 +17,7 @@ body{
 }
 
 .background-grey{
-    background-color: #E5E7Eb;
+    background-color: #E5E7EB;
 }
 
 .header{
@@ -68,7 +68,7 @@ a{
 
 .title{
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -92,3 +92,42 @@ a{
     flex: 1;
     height: 254px;
 }
+
+.container{
+    padding: 48px 460px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+}
+
+.card-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+}
+
+.card{
+    width: 150px;
+    height: auto;
+}
+
+.card img{
+    border-radius: 8px;
+    border: 4px #3882F6 solid;
+}
+.card p{
+    font-weight: lighter;
+    text-align: center;
+    color: grey;
+    margin-top: 4px;
+}
+
