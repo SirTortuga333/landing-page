@@ -93,7 +93,7 @@ a{
     height: 254px;
 }
 
-.container{
+.card-section{
     padding: 48px 460px;
     display: flex;
     flex-flow: column;
