@@ -1,7 +1,7 @@
 /* style.css */
 
 body{
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-flow: column;
     padding: 0px;
@@ -125,9 +125,31 @@ a{
     border: 4px #3882F6 solid;
 }
 .card p{
-    font-weight: lighter;
+    font-weight: 100;
     text-align: center;
     color: grey;
     margin-top: 4px;
 }
 
+.quote-section{
+    padding: 72px 460px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoted{
+    margin-right: 48px;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
