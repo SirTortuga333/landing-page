@@ -1,1 +1,94 @@
 /* style.css */
+
+body{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-flow: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.background-dark{
+    background-color: #1F2937;
+}
+
+.background-white{
+    background-color: white;
+}
+
+.background-grey{
+    background-color: #E5E7Eb;
+}
+
+.header{
+    /* padding: 16px 254px; */
+    padding: 16px 460px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 12px;
+}
+
+a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero-container{
+    display: flex;
+    /* padding: 96px 254px; */
+    padding: 96px 460px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-text{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-text .subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text .sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 24px;
+    align-self: flex-start;
+    border-style: none;
+}
+
+.hero-image{
+    flex: 1;
+    height: 254px;
+}
