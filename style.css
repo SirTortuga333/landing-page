@@ -127,7 +127,7 @@ a{
 .card p{
     font-weight: 100;
     text-align: center;
-    color: grey;
+    color: #808080;
     margin-top: 4px;
 }
 
@@ -152,4 +152,41 @@ a{
     align-self: flex-end;
     font-weight: bold;
     font-size: 24px;
+}
+
+.call-section{
+    padding: 48px 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 32px 96px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call-text{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.sign-up-container .subtext{
+    color: #F9FAF8;
+}
+
+.call-section button{
+    background-color: #3882F6;
+    border: 2px #F9FAF8 solid;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 24px;
 }
